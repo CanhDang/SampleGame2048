@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.down() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array[rowNext][col]">
+            </PersistentString>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+            <PersistentString
+               value = "array[row][col]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+            <PersistentString
+               value = "dict[&quot;currentScore&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "memoryArray[row][col]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.randomNum() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

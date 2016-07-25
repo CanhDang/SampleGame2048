@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E31973B1D41D7D000C9F6AA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E31973A1D41D7D000C9F6AA /* GradientView.swift */; };
 		7E339BE91D40B6700087A446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E339BE81D40B6700087A446 /* AppDelegate.swift */; };
 		7E339BEB1D40B6700087A446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E339BEA1D40B6700087A446 /* ViewController.swift */; };
 		7E339BEE1D40B6700087A446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E339BEC1D40B6700087A446 /* Main.storyboard */; };
 		7E339BF01D40B6700087A446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E339BEF1D40B6700087A446 /* Assets.xcassets */; };
 		7E339BF31D40B6700087A446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E339BF11D40B6700087A446 /* LaunchScreen.storyboard */; };
+		7EF0A2771D422C9500F80B08 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF0A2761D422C9500F80B08 /* GameData.plist */; };
+		7EF0A2791D422D8500F80B08 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0A2781D422D8500F80B08 /* Plist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E31973A1D41D7D000C9F6AA /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		7E339BE51D40B6700087A446 /* SampleGame2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGame2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E339BE81D40B6700087A446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E339BEA1D40B6700087A446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		7E339BEF1D40B6700087A446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E339BF21D40B6700087A446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E339BF41D40B6700087A446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF0A2761D422C9500F80B08 /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
+		7EF0A2781D422D8500F80B08 /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				7E339BEF1D40B6700087A446 /* Assets.xcassets */,
 				7E339BF11D40B6700087A446 /* LaunchScreen.storyboard */,
 				7E339BF41D40B6700087A446 /* Info.plist */,
+				7E31973A1D41D7D000C9F6AA /* GradientView.swift */,
+				7EF0A2761D422C9500F80B08 /* GameData.plist */,
+				7EF0A2781D422D8500F80B08 /* Plist.swift */,
 			);
 			path = SampleGame2048;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF0A2771D422C9500F80B08 /* GameData.plist in Resources */,
 				7E339BF31D40B6700087A446 /* LaunchScreen.storyboard in Resources */,
 				7E339BF01D40B6700087A446 /* Assets.xcassets in Resources */,
 				7E339BEE1D40B6700087A446 /* Main.storyboard in Resources */,
@@ -137,6 +147,8 @@
 			files = (
 				7E339BEB1D40B6700087A446 /* ViewController.swift in Sources */,
 				7E339BE91D40B6700087A446 /* AppDelegate.swift in Sources */,
+				7EF0A2791D422D8500F80B08 /* Plist.swift in Sources */,
+				7E31973B1D41D7D000C9F6AA /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				7E339BF91D40B6700087A446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
