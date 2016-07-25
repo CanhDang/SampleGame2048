@@ -14,6 +14,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lbl_BestScore: UILabel!
     
+    @IBAction func action_Reset(sender: AnyObject) {
+        playAgain()
+        
+    }
+    
+    
     var score = 0
     
     var array = Array(count: 4, repeatedValue: Array(count: 4, repeatedValue: 0))
